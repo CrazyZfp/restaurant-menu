@@ -35,7 +35,7 @@ const HomePage = () => {
         />
 
         <div className={"homeContentAnimation"}>
-          <section className={styles.restaurantInformation}>
+          {/* <section className={styles.restaurantInformation}>
             <div className={styles.informationContainer}>
               <div>
                 <AimOutlined /> Main St, Delicious City, London 9578, USA
@@ -52,7 +52,7 @@ const HomePage = () => {
                 <MailOutlined /> magentastore@gmail.com
               </div>
             </div>
-          </section>
+          </section> */}
 
           <section className={styles.titleContainer}>
             <h1 className={styles.title}>Where every flavor tells a story</h1>

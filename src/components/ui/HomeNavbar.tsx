@@ -37,7 +37,7 @@ export const HomeNavbar = () => {
             level={1}
             style={{ fontSize: "24px" }}
           >
-            Magenta kitchen
+            Today Menu
           </Title>
         </div>
 
