@@ -1,0 +1,16 @@
+{
+  "name": "Today-Menu-Frontend",
+  "image": "node:20.16.0-alpine3.20", 
+  "runArgs": [
+    "--network=app-net"
+  ],
+  "features": {
+    "git": "latest"
+  },
+  "settings": {
+    "editor.formatOnSave": true
+  },
+  "postCreateCommand": "./.devcontainer/post_create_command.sh",
+  "remoteUser": "vscode"
+}
+
